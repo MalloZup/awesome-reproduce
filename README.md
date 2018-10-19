@@ -13,7 +13,19 @@ reproducing something with terraform
 Clone this repository.
 
 ```bash
-cd example
+cd example-bad
 terraform init
 terraform apply
 ``` 
+You can compare with good-example
+
+# INFO
+
+```bash
+./terraform-provider-libvirt -version
+./terraform-provider-libvirt was not built correctly
+Compiled against library: libvirt 4.4.0
+Using library: libvirt 4.4.0
+Running hypervisor: QEMU 3.0.0
+Running against daemon: 4.4.0
+```
