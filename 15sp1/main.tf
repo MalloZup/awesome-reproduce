@@ -21,5 +21,9 @@ resource "libvirt_domain" "domain" {
     network_name = "default"
   }
 
+  disk {
+    volume_id = "${libvirt_volume.jeos.id}"
+  }
+
  
 }
