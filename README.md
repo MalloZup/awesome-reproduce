@@ -10,7 +10,10 @@ reproducing something with terraform
 
 # Reproduction:
 
-`cd example`
-`terraform init`
-`terraform apply`
- 
+Clone this repository.
+
+```bash
+cd example
+terraform init
+terraform apply
+``` 
